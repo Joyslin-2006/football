@@ -1,0 +1,120 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5f5; /* Light grey background for the entire page */
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #1a1a1a; /* Dark background for the sidebar */
+    color: white;
+    width: 250px;
+    height: 100%;
+    padding-top: 20px;
+    position: fixed;
+}
+/* Logo Styling */
+.logo {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust spacing between the logo and other content */
+}
+
+.logo img {
+    width: 140px; /* Adjust the size of your logo */
+    height: auto;
+}
+.news-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.news-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    font-size: 22px;
+    color: #ff4500;
+}
+
+.news-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.read-more {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #333;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li:hover {
+    background-color: #333;
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-left: 250px; /* Adjust based on sidebar width */
+    padding: 40px;
+    width: calc(100% - 250px); /* Adjust based on sidebar width */
+    background-color: #ffffff; /* White background for main content */
+}
+
+section h1 {
+    font-size: 36px;
+    color: #333; /* Darker text for the title */
+}
+
+section p {
+    font-size: 18px;
+    color: #555; /* Slightly grey text for the paragraph */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4500; /* Orange button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+    background-color: #ff6700; /* Slightly brighter on hover */
+}
